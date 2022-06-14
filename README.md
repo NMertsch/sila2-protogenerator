@@ -5,7 +5,7 @@ Tool to convert SiLA 2 features (e.g. [SiLAService-v1_0.sila.xml](SiLAService-v1
 Run `dotnet run SiLAService-v1_0.sila.xml SiLAService.proto`. This generates the file SiLAService.proto`.
 
 ## Build
-Run `dotnet publish -c Release -o .`. This generates `SiLA2ProtoGenerator.exe`.
+Run `dotnet publish -c Release -r win-x64 -o .`. This generates `SiLA2ProtoGenerator.exe`.
 
 ## Usage
 Run `SiLA2ProtoGenerator.exe SiLAService-v1_0.sila.xml SiLAService.proto` from inside the current directory (required until the xsl files are bundled).
